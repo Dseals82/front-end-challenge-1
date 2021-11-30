@@ -2,6 +2,7 @@ body {
     background-color: hsl(217, 54%, 11%);
     color: white;
     font-family: 'Outfit', sans-serif;
+    
 }
 
 .card-container {
@@ -33,15 +34,17 @@ body {
     background-size: cover;
    
 }
-h2 {
-    font-weight: 600;
+h1 {
+    font-weight: 400;
 }
 
 .card-border-bottom {
-    width: 100%;
-    border-bottom: 0.5px solid hsl(215, 51%, 70%);
     margin-top: 20px; 
     margin-bottom: 20px;
+    height: 1px;
+    width: 100%;
+    background-color: hsl(215, 51%, 70%);
+    border: none;
     
 }
 
@@ -92,4 +95,9 @@ h2 {
 .bottom-container {
     display: flex;
     align-items: center;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
 }
